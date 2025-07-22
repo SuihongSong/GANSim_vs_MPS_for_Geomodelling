@@ -1,6 +1,5 @@
-# Codes, Data, and Trained Models for  
-**"Generative Geomodelling: Deep Learning vs. Geostatistics"**  
-*Suihong Song, Jiayuan Huang, and Tapan Mukerji (Stanford University)*
+# Codes, Data, and Trained Models for "Generative Geomodelling: Deep Learning vs. Geostatistics"
+*by Suihong Song, Jiayuan Huang, and Tapan Mukerji (Stanford University)*
 
 ## 📄 Paper Abstract
 
