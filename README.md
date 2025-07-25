@@ -54,11 +54,11 @@ This repository contains code, datasets, and trained models used in the paper. C
 
 ##### 3. **Conditional Geomodelling Workflows**
 
-######   *Conditioning to Global Features Only*
+  (1) **Conditioning to Global Features Only**
 - `3_1_PostGANs_MCMC_condition_to_global_features.ipynb` — Post-GANs MCMC workflow.
 - `3_2_GANSim_condition_to_global_features.ipynb` — GANSim workflow and comparison with MPS methods.
 
-######   *Conditioning to Global Features + Well Facies + Probability Maps*
+  (2) **Conditioning to Global Features + Well Facies + Probability Maps**
 - `3_3_GANSim_condition_to_wellfacies_faciesprob_globalfeatures.ipynb` — GANSim workflows and comparison with SNESIM.
 - `3_4_Codes_for_Flow_Simulation_by_Calling_Eclipse.ipynb` — Flow simulation with Eclipse on generated facies models.
 
