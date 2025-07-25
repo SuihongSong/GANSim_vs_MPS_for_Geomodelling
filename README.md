@@ -26,6 +26,7 @@ This repository contains code, datasets, and trained models used in the paper. C
 - `2DPointBar`
 - `2DChannel`
 
+--
 ### 📂 Inside `2DPointBar`:
 
 #### MPS Baseline Algorithms
@@ -65,7 +66,7 @@ Located in the `2_GANSimTraining` folder.
 - `3_6_HandsOn_with_Trained_Conditional_GANSim_in_Colab.ipynb` — Easy-to-use Colab notebook to test a pretrained GANSim model with global features, well facies, and facies probability maps.  
   No deep learning experience required!
 
----
+--
 
 ### 📂 Inside `2DChannel`: 
 #### The architecture of `2DChannel` is almost the same as `2DPointBar`, except for the additional folder `3_3_2_GANSimTraining(Latent8)`, which is used to train GANSim with an input latent vector of size 8×8. The purpose of this folder will become clear as you go through the notebooks.
