@@ -1,6 +1,14 @@
 # Codes, Data, and Trained Models for "Generative Geomodelling: Deep Learning vs. Geostatistics"
 *by Suihong Song, Jiayuan Huang, and Tapan Mukerji (Stanford University)*
 
+<p align="center">
+  <img src="GeomodellingForLargeNonstationaryReservoirs.png" alt="Overview Figure 1" width="600"/>
+</p>
+
+<p align="center">
+  <img src="GenerationofTransitionalGeomodels.png" alt="Overview Figure 2" width="600"/>
+</p>
+
 ## 📄 Paper Abstract
 
 Generative geomodelling aims to simulate subsurface facies distributions while honoring multiple types of conditioning data and geological knowledge. This study compares three representative multiple-point statistics (MPS) approaches—Direct Sampling (DS), Quick Sampling (QS), and SNESIM—with two Generative Adversarial Network (GAN) workflows: Post-GANs perturbation and GANSim. The comparison is conducted using two sedimentary reservoir scenarios.
