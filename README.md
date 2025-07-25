@@ -36,34 +36,34 @@ This repository contains code, datasets, and trained models used in the paper. C
 #### GANSim Workflows and Comparisons
 
 ##### 1. **Data Preparation and Visualization**
-    - `1_1_Training_Test_Data_Preparation.ipynb` — Prepares training/test datasets for GANSim.
-    - `1_2_Visualize_Training_Test_Data.ipynb` — Visualizes training/test data.
+- `1_1_Training_Test_Data_Preparation.ipynb` — Prepares training/test datasets for GANSim.
+- `1_2_Visualize_Training_Test_Data.ipynb` — Visualizes training/test data.
 
 ##### 2. **GANSim Training**
-Located in the `2_GANSimTraining` folder.
+  Located in the `2_GANSimTraining` folder.
 
-(1) **Set hyperparameters in `config.py`**:
+  (1) **Set hyperparameters in `config.py`**:
    - Facies codes
    - Directory paths for training/results
    - Conditioning types: `cond_label`, `cond_well`, `cond_prob`
    - Loss weights and other settings
 
-(2) **Train the model**:
+  (2) **Train the model**:
    - Run `%run train.py` in a notebook, or
    - Run `python train.py` from terminal
 
 ##### 3. **Conditional Geomodelling Workflows**
 
 ######   *Conditioning to Global Features Only*
-    - `3_1_PostGANs_MCMC_condition_to_global_features.ipynb` — Post-GANs MCMC workflow.
-    - `3_2_GANSim_condition_to_global_features.ipynb` — GANSim workflow and comparison with MPS methods.
+- `3_1_PostGANs_MCMC_condition_to_global_features.ipynb` — Post-GANs MCMC workflow.
+- `3_2_GANSim_condition_to_global_features.ipynb` — GANSim workflow and comparison with MPS methods.
 
 ######   *Conditioning to Global Features + Well Facies + Probability Maps*
-    - `3_3_GANSim_condition_to_wellfacies_faciesprob_globalfeatures.ipynb` — GANSim workflows and comparison with SNESIM.
-    - `3_4_Codes_for_Flow_Simulation_by_Calling_Eclipse.ipynb` — Flow simulation with Eclipse on generated facies models.
+- `3_3_GANSim_condition_to_wellfacies_faciesprob_globalfeatures.ipynb` — GANSim workflows and comparison with SNESIM.
+- `3_4_Codes_for_Flow_Simulation_by_Calling_Eclipse.ipynb` — Flow simulation with Eclipse on generated facies models.
 
 ##### 4. **Hands-on Demo with Pretrained GANSim (Google Colab)**
-    - `3_6_HandsOn_with_Trained_Conditional_GANSim_in_Colab.ipynb` — Easy-to-use Colab notebook to test a pretrained GANSim model with global features, well facies, and facies probability maps.  
+- `3_6_HandsOn_with_Trained_Conditional_GANSim_in_Colab.ipynb` — Easy-to-use Colab notebook to test a pretrained GANSim model with global features, well facies, and facies probability maps.  
       No deep learning experience required!
 
 --
