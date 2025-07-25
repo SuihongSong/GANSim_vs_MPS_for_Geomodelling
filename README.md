@@ -2,13 +2,13 @@
 *by Suihong Song, Jiayuan Huang, and Tapan Mukerji (Stanford University)*
 
 <p align="center">
-  <img src="images/GeomodellingForLargeNonstationaryReservoirs.png" alt="Large Nonstationary Reservoirs" width="600"/><br>
+  <img src="GeomodellingForLargeNonstationaryReservoirs.png" alt="Large Nonstationary Reservoirs" width="600"/><br>
   <b>Figure: Geomodelling for Large Nonstationary Reservoirs</b>
 </p>
 
 
 <p align="center">
-  <img src="images/GenerationofTransitionalGeomodels.png" alt="Transitional Geomodels" width="600"/><br>
+  <img src="GenerationofTransitionalGeomodels.png" alt="Transitional Geomodels" width="600"/><br>
   <b>Figure: Generation of Transitional Geomodels Using GANSim</b>
 </p>
 
