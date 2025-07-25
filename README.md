@@ -20,7 +20,7 @@ The results show that GANs, especially GANSim, consistently produce geologically
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 This repository contains code, datasets, and trained models used in the paper. Content is organized by dataset:
 - `2DPointBar`
@@ -28,11 +28,11 @@ This repository contains code, datasets, and trained models used in the paper. C
 
 ### 📂 Inside `2DPointBar`:
 
-#### 🔹 MPS Baseline Algorithms
+#### MPS Baseline Algorithms
 - Direct Sampling and Quick Sampling are implemented in `3_5_MPS_Codes.ipynb`.
 - SNESIM is run using **Petrel** (not included here).
 
-#### 🔹 GANSim Workflows and Comparisons
+#### GANSim Workflows and Comparisons
 
 ##### 1. **Data Preparation and Visualization**
 - `1_1_Training_Test_Data_Preparation.ipynb` — Prepares training/test datasets for GANSim.
@@ -53,11 +53,11 @@ Located in the `2_GANSimTraining` folder.
 
 ##### 3. **Conditional Geomodelling Workflows**
 
-###### 📌 *Conditioning to Global Features Only*
+###### *Conditioning to Global Features Only*
 - `3_1_PostGANs_MCMC_condition_to_global_features.ipynb` — Post-GANs MCMC workflow.
 - `3_2_GANSim_condition_to_global_features.ipynb` — GANSim workflow and comparison with MPS methods.
 
-###### 📌 *Conditioning to Global Features + Well Facies + Probability Maps*
+###### *Conditioning to Global Features + Well Facies + Probability Maps*
 - `3_3_GANSim_condition_to_wellfacies_faciesprob_globalfeatures.ipynb` — GANSim workflows and comparison with SNESIM.
 - `3_4_Codes_for_Flow_Simulation_by_Calling_Eclipse.ipynb` — Flow simulation with Eclipse on generated facies models.
 
@@ -67,9 +67,15 @@ Located in the `2_GANSimTraining` folder.
 
 ---
 
-## 🚀 Getting Started
+### 📂 Inside `2DChannel`: 
+#### The architecture of `2DChannel` is almost the same as `2DPointBar`, except for the additional folder `3_3_2_GANSimTraining(Latent8)`, which is used to train GANSim with an input latent vector of size 8×8. The purpose of this folder will become clear as you go through the notebooks.
 
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/SuihongSong/GANSim_vs_MPS_for_Geomodelling.git
-   cd GANSim_vs_MPS_for_Geomodelling
+
+-----
+
+
+**📩 Contact us if you have any questions: Dr. Suihong Song at songsuihong@126.com or suihong@stanford.edu**  
+**🤝 We are open to collaborations.**  
+**🙏 Please give credit if you find these materials helpful.**
+
+
